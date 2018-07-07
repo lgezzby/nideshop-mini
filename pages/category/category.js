@@ -4,10 +4,26 @@ var api = require('../../config/api.js');
 Page({
   data: {
     // text:"这是一个页面"
-    navList: [],
-    goodsList: [],
+    navList: [
+      { "id": 1008002, "name": "布艺软装" },
+      { "id": 1008008, "name": "被枕" },
+      { "id": 1008009, "name": "床品件套" },
+      { "id": 1008016, "name": "灯具" },
+      { "id": 1010003, "name": "地垫" },
+      { "id": 1011003, "name": "床垫" },
+      { "id": 1011004, "name": "家饰" },
+      { "id": 1015000, "name": "家具" },
+      { "id": 1017000, "name": "宠物" },
+      { "id": 1036000, "name": "夏凉" }],
+    goodsList: [
+      { "name": "轻奢纯棉刺绣水洗四件套", "retail_price": 899.00, "list_pic_url": "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png"},
+      { "name": "轻奢纯棉刺绣水洗四件套", "retail_price": 899.00, "list_pic_url": "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png" },
+      { "name": "轻奢纯棉刺绣水洗四件套", "retail_price": 899.00, "list_pic_url": "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png" },
+      { "name": "轻奢纯棉刺绣水洗四件套", "retail_price": 899.00, "list_pic_url": "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png" },
+      { "name": "轻奢纯棉刺绣水洗四件套", "retail_price": 899.00, "list_pic_url": "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png" },
+      { "name": "轻奢纯棉刺绣水洗四件套", "retail_price": 899.00, "list_pic_url": "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png" }],
     id: 0,
-    currentCategory: {},
+    currentCategory: { "name": "居家", "front_name": "回家，放松身心" },
     scrollLeft: 0,
     scrollTop: 0,
     scrollHeight: 0,
