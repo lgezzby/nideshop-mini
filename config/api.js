@@ -12,12 +12,30 @@ module.exports = {
   GoodsCategory: ApiRootUrl + 'goods/category',  //获得分类数据
   GoodsDetail: ApiRootUrl + 'goods/detail',  //获得商品的详情
   GoodsHot: ApiRootUrl + 'goods/hot',  //热门
-  GoodsRelated: ApiRootUrl + 'goods/related',  //商品详情页的关联商品（大家都在看）
+
+  CartList: ApiRootUrl + 'cart/index', //获取购物车的数据
+  CartAdd: ApiRootUrl + 'cart/add', // 添加商品到购物车
+  CartUpdate: ApiRootUrl + 'cart/update', // 更新购物车的商品
+  CartDelete: ApiRootUrl + 'cart/delete', // 删除购物车的商品
+  CartChecked: ApiRootUrl + 'cart/checked', // 选择或取消选择商品
+  CartGoodsCount: ApiRootUrl + 'cart/goodscount', // 获取购物车商品件数
+  CartCheckout: ApiRootUrl + 'cart/checkout', // 下单前信息确认
+
+  OrderSubmit: ApiRootUrl + 'order/submit', // 提交订单
+  PayPrepayId: ApiRootUrl + 'pay/prepay', //获取微信统一下单prepay_id
+
+  CollectList: ApiRootUrl + 'collect/list',  //收藏列表
+  CollectAddOrDelete: ApiRootUrl + 'collect/addordelete',  //添加或取消收藏
 
   SearchIndex: ApiRootUrl + 'search/index',  //搜索页面数据
   SearchResult: ApiRootUrl + 'search/result',  //搜索数据
   SearchHelper: ApiRootUrl + 'search/helper',  //搜索帮助
   SearchClearHistory: ApiRootUrl + 'search/clearhistory',  //搜索帮助
+
+  OrderList: ApiRootUrl + 'order/list',  //订单列表
+  OrderDetail: ApiRootUrl + 'order/detail',  //订单详情
+  OrderCancel: ApiRootUrl + 'order/cancel',  //取消订单
+  OrderExpress: ApiRootUrl + 'order/express', //物流详情
 
   FootprintList: ApiRootUrl + 'footprint/list',  //足迹列表
   FootprintDelete: ApiRootUrl + 'footprint/delete',  //删除足迹
